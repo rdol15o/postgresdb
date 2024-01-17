@@ -22,4 +22,7 @@ public class UserEntity {
 
     @Column(name = "last_name")
     protected String lastName;
+
+    protected String email;
+    protected String password;
 }
